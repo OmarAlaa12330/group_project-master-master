@@ -1,39 +1,32 @@
-.workout-page { /* parent */
+.workout-page {
+  /* parent */
   background-color: white;
-  width:100%;
-  height:100vh;
+  width: 100%;
+  height: 100vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  font: inter;
-
-
   margin: 0 auto;
   width: 90%;
 }
 
+.card {
+  /* child */
 
-.card{ /* child */
-  
-  display:flex;
+  display: flex;
   flex-direction: column;
-  width:300px; /* for test*/
+  width: 300px; /* for test*/
   min-width: 50px;
   flex: 0 32%;
   margin-bottom: 10%;
- 
 }
-.card + .card{
+.card + .card {
   margin-left: 10%;
 }
 
-.card img{
+.card img {
   width: 100%;
   height: 200px;
 }
-
-
-
-
 
 /*  https://tobiasahlin.com/blog/common-flexbox-patterns/#:~:text=%20To%20accomplish%20this%20we%20need%20to%3A%20,third%20item%20in%20the%20list%20with...%20More%20 */

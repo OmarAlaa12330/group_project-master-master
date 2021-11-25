@@ -8,9 +8,11 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        {
+          //mapping the data from database (every preview of workout)
+        }
         <Preview data={data} />
       </BrowserRouter>
-      
     </div>
   );
 }
