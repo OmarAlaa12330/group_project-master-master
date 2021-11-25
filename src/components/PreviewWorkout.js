@@ -1,8 +1,8 @@
-import "../App.css";
+import "../PreviewWorkout.css";
 
 import WorkoutCard from "./workoutCard";
 
-export default function Preview(props) {
+export default function PreviewWorkout(props) {
   return (
     <div className="workout-page">
       {props.data.map((info) => {

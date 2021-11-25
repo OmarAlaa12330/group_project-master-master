@@ -1,5 +1,5 @@
-import Preview from "./components/Preview";
-import "./App.css";
+import Preview from "./components/PreviewWorkout";
+
 //import photo from "./Juan.jpg";
 import data from "./test.json";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
